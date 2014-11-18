@@ -61,35 +61,35 @@ tr:
     other: "We're sorry, but new users are temporarily limited to %{count} replies in the same topic."
 
   embed:
-    start_discussion: "Start Discussion"
-    continue: "Continue Discussion"
+    start_discussion: "Tartışma Başlat"
+    continue: "Tartışmaya Devam Et"
     more_replies:
-      one: "1 more reply"
-      other: "%{count} more replies"
+      one: "1 cevap daha"
+      other: "%{count} cevap daha"
 
-    loading: "Loading Discussion..."
+    loading: "Tartışmayı yüklüyor..."
     permalink: "Permalink"
     imported_from: "This is a companion discussion topic for the original entry at %{link}"
     in_reply_to: "▶ %{username}"
     replies:
-      one: "1 reply"
-      other: "%{count} replies"
+      one: "1 cevap"
+      other: "%{count} cevaplar"
 
   too_many_mentions:
     zero: "Sorry, you can't mention other users."
     one: "Sorry, you can only mention one other user in a post."
     other: "Sorry, you can only mention %{count} users in a post."
   too_many_mentions_newuser:
-    zero: "Sorry, new users can't mention other users."
+    zero: "Sorry, new users can' mention other users."
     one: "Sorry, new users can only mention one other user in a post."
     other: "Sorry, new users can only mention %{count} users in a post."
   too_many_images:
     zero: "Üzgünüz, yeni kullanıcılar mesajlara resim koyamazlar."
-    one: "Sorry, new users can only put one image in a post."
+    one: "Üzgünüz, yeni kullanıcılar bir mesajda sadece bir resim koyabilirler."
     other: "Sorry, new users can only put %{count} images in a post."
   too_many_attachments:
-    zero: "Sorry, new users can't put attachments in posts."
-    one: "Sorry, new users can only put one attachment in a post."
+    zero: "Üzgünüz, yeni kullancılar mesajlarda eklenti kullanamazlar."
+    one: "Üzgünüz, yeni kullancılar bir mesajda sadece bir eklenti kullanabilirler."
     other: "Sorry, new users can only put %{count} attachments in a post."
   too_many_links:
     zero: "Sorry, new users can't put links in posts."
@@ -99,32 +99,32 @@ tr:
   user_is_suspended: "Suspended users are not allowed to post."
 
   just_posted_that: "is too similar to what you recently posted"
-  has_already_been_used: "has already been used"
-  invalid_characters: "contains invalid characters"
+  has_already_been_used: "zaten kullanıldı"
+  invalid_characters: "geçersiz karakterler içerir"
   is_invalid: "is invalid; try to be a little more descriptive"
-  next_page: "next page →"
-  prev_page: "← previous page"
-  page_num: "Page %{num}"
+  next_page: "sonraki sayfa →"
+  prev_page: "← önceki sayfa"
+  page_num: "Sayfa %{num}"
   topics_in_category: "Topics in the '%{category}' category"
   rss_posts_in_topic: "RSS feed of '%{topic}'"
   rss_topics_in_category: "RSS feed of topics in the '%{category}' category"
-  author_wrote: "%{author} wrote:"
-  num_posts: "Posts:"
-  num_participants: "Participants:"
-  read_full_topic: "Read full topic"
+  author_wrote: "%{author} yazdı:"
+  num_posts: "Mesajlar:"
+  num_participants: "Katılımcılar:"
+  read_full_topic: "Tüm konuyu oku"
   private_message_abbrev: "PM"
   rss_description:
-    latest: "Latest topics"
-    hot: "Hot topics"
-  too_late_to_edit: "That post was created too long ago. It can no longer be edited or deleted."
+    latest: "Son konular"
+    hot: "Sıcak konular"
+  too_late_to_edit: "Bu konu çok uzun zaman önce oluşturudu. Artık değiştirilemez ve silinemez."
 
   groups:
     errors:
-      can_not_modify_automatic: "You can not modify an automatic group"
+      can_not_modify_automatic: "Otomatik bir grubu değiştiremezsiniz"
     default_names:
-      everyone: "everyone"
-      admins: "admins"
-      moderators: "moderators"
+      everyone: "herkes"
+      admins: "adminler"
+      moderators: "moderatorler"
       staff: "staff"
       trust_level_0: "trust_level_0"
       trust_level_1: "trust_level_1"
@@ -201,11 +201,11 @@ tr:
   activerecord:
     attributes:
       category:
-        name: "Category Name"
+        name: "Kategori İsmi"
       post:
         raw: "Body"
       user_profile:
-        bio_raw: "About Me"
+        bio_raw: "Hakkımda"
       user:
         ip_address: ""
     errors:
@@ -216,20 +216,20 @@ tr:
         topic:
           attributes:
             base:
-              warning_requires_pm: "You can only attach warnings to private messages."
-              too_many_users: "You can only send warnings to one user at a time."
+              warning_requires_pm: "Sadece özel mesajlara uyarı ekleyebilirsiniz."
+              too_many_users: "Aynı anda sadece bir kullanıcıya uyarı gönderebilirsiniz."
             archetype:
-              cant_send_pm: "Sorry, you cannot send a private message to that user."
+              cant_send_pm: "Üzgünüz, o kullanıcıya özel mesaj gönderemezsiniz."
         user:
           attributes:
             password:
-              common: "is one of the 10000 most common passwords. Please use a more secure password."
+              common: "en çok kullanılan 10000 şifre arasında. Lütfen daha güvenli bir şifre kullanın."
             ip_address:
-              signup_not_allowed: "Signup is not allowed from this account."
+              signup_not_allowed: "Bu hesaptan kayıt olmaya izin verilmiyor."
         color_scheme_color:
           attributes:
             hex:
-              invalid: "is not a valid color"
+              invalid: "geçerli bir renk değil"
 
   user_profile:
     no_info_me: "<div class='missing-profile'>the About Me field of your profile is currently blank, <a href='/users/%{username_lower}/preferences/about-me'>would you like to fill it out?</a></div>"
@@ -398,9 +398,9 @@ tr:
     continue: "Continue to %{site_name}"
 
   change_email:
-    confirmed: "Your email has been updated."
+    confirmed: "E-posta adresinizi güncellendi."
     please_continue: "Continue to %{site_name}"
-    error: "There was an error changing your email address. Perhaps the address is already in use?"
+    error: "E-posta adresinizi değiştirirken bir hata oluştu. Kullanılmda olan bir e-posta adresi vermiş olabilir misiniz?"
 
   activation:
     action: "Hesabınızı onaylayın"
@@ -408,7 +408,7 @@ tr:
     please_continue: "Yeni hesabınız onaylandı ve giriş yaptınız."
     continue_button: "%{site_name}'e devam edin"
     welcome_to: "%{site_name}'e hoş geldiniz!"
-    approval_required: "A moderator must manually approve your new account before you can access this forum. You'll get an email when your account is approved!"
+    approval_required: "Foruma erişim sağlamanız için bir moderatör yeni hesabınızı onaylamalı. Hesabınız onayladığında bir e-posta alacaksınız!"
 
   post_action_types:
     off_topic:
@@ -550,7 +550,7 @@ tr:
     notify_user_private_messages:
       title: "Notify User"
       xaxis: "Day"
-      yaxis: "Number of private messages"
+      yaxis: "Özel Mesaj Sayısı"
     top_referrers:
       title: "Top Referrers"
       xaxis: "User"
